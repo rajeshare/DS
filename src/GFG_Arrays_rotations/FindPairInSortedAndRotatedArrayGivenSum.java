@@ -1,4 +1,4 @@
-package GFG_Arrays;
+package GFG_Arrays_rotations;
 
 public class FindPairInSortedAndRotatedArrayGivenSum {
 

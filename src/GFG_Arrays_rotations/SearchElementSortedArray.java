@@ -1,4 +1,4 @@
-package GFG_Arrays;
+package GFG_Arrays_rotations;
 
 public class SearchElementSortedArray {
 
@@ -58,7 +58,7 @@ public class SearchElementSortedArray {
 		return binarySearch(arr, low, (mid - 1), key);
 	}
 
-	private static int findPivot(int[] arr, int l, int h) {
+	public static int findPivot(int[] arr, int l, int h) {
 		if (h < l)
 			return -1;
 		if (l == h)

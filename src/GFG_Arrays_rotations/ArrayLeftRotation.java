@@ -1,4 +1,4 @@
-package GFG_Arrays;
+package GFG_Arrays_rotations;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
@@ -17,7 +17,7 @@ public class ArrayLeftRotation {
 	}
 
 	// TM O(MN) SP(1)
-	private static void rotation1(Integer[] test, int n) {
+	public static void rotation1(Integer[] test, int n) {
 
 		for (int i = 0; i < n; i++) {
 			int tmp = test[0];
@@ -29,7 +29,7 @@ public class ArrayLeftRotation {
 	}
 
 	// TC O(N) SP(D)
-	private static void rotation2(Integer[] test, int n) {
+	public static void rotation2(Integer[] test, int n) {
 
 		Integer[] temp = new Integer[n];
 
@@ -62,7 +62,7 @@ public class ArrayLeftRotation {
 
 	
 //	TC O(N)
-	private static void rotation4(Integer[] test, int d) {
+	public static void rotation4(Integer[] test, Integer d) {
 		int m=test.length;
 		d=d-1;
 		for (int i = 0, j = d; i < j; i++, j--) {
